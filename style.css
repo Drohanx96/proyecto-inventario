@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #efefef;
+}
+
+.navbar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  background-color: #cecfc9;
+}
+
+.nav-link {
+  font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #276e90;
+}
+
+#contenedor {
+  margin-top: 160px;
+  margin-left: 280px;
+  position: fixed;
+  width: 1000px;
+}
+
+span {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.logout:hover{
+  background-color: #0a3143;
+}
+
+.primario {
+  background-color: #0a3143;
+}
+
+.secundario{
+  background-color: #276e90;
+}
+
+.terciario{
+  background-color: #cecfc9;
+}
+
+.texto {
+  color: #cecfc9;
+}
