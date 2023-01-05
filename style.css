@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  width: 250px;
+  width: 200px;
   height: 100vh;
   position: fixed;
   background-color: #cecfc9;
@@ -28,7 +28,7 @@ body {
 
 #contenedor {
   margin-top: 160px;
-  margin-left: 280px;
+  margin-left: 270px;
   position: fixed;
   width: 1000px;
 }
@@ -38,7 +38,7 @@ span {
   padding-bottom: 10px;
 }
 
-.logout:hover{
+.logout:hover {
   background-color: #0a3143;
 }
 
@@ -46,12 +46,16 @@ span {
   background-color: #0a3143;
 }
 
-.secundario{
+.secundario {
   background-color: #276e90;
 }
 
-.terciario{
+.terciario {
   background-color: #cecfc9;
+}
+
+.cuarto {
+  background-color: #325566;
 }
 
 .texto {
