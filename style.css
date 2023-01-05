@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.fondo {
+  background-image: url("./media/fondo.jpg");
+}
+
 body {
   min-height: 100vh;
   background-color: #efefef;

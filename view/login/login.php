@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/0ed1404235.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="fondo">
     <span class="text-center primario texto py-2 mb-3">
         <h1>AWGI SISTEMA</h1>
     </span>
@@ -37,7 +37,7 @@
         </form>
     </div>
 
-    
+
 </body>
 
 </html>
