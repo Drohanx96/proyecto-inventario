@@ -16,7 +16,6 @@ require_once "/xampp/htdocs/proyecto-inventario/view/head/header.php";
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Nombre</th>
-                        <th scope="col">Agregado</th>
                         <th scope="col">Acciones</th>
                     </tr>
                 </thead>
@@ -24,19 +23,16 @@ require_once "/xampp/htdocs/proyecto-inventario/view/head/header.php";
                     <tr>
                         <th scope="row">1</th>
                         <td>Mark</td>
-                        <td>Otto</td>
                         <td><i class="fa-solid fa-trash pe-2 text-danger"></i><i class="fa-solid fa-pen-to-square ps-2 text-success"></i></td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
                         <td>Jacob</td>
-                        <td>Thornton</td>
                         <td><i class="fa-solid fa-trash pe-2 text-danger"></i><i class="fa-solid fa-pen-to-square ps-2 text-success"></i></td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
                         <td>Larry the Bird</td>
-                        <td>Igor</td>
                         <td><i class="fa-solid fa-trash pe-2 text-danger"></i><i class="fa-solid fa-pen-to-square ps-2 text-success"></i></td>
                     </tr>
                 </tbody>
