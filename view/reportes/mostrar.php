@@ -37,7 +37,7 @@ require_once "/xampp/htdocs/proyecto-inventario/view/head/header.php";
         </div>
         <div class="col col-md-6">
             <span class="text-center primario texto pt-1">
-                STOCK
+                EXISTENCIAS
             </span>
             <table class="table table-striped table-bordered">
                 <thead>

@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inicio de sesion</title>
-    <link rel="stylesheet" href="/proyecto-inventario/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/proyecto-inventario/style.css">
+    <link rel="stylesheet" href="/proyecto-inventario/view/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/proyecto-inventario/view/style.css">
     <script src="https://kit.fontawesome.com/0ed1404235.js" crossorigin="anonymous"></script>
 </head>
 

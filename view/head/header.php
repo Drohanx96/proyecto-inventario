@@ -1,3 +1,6 @@
+<?php
+    require_once "/xampp/htdocs/proyecto-inventario/config/app.php";
+?>
 <!doctype html>
 <html lang="en">
 
@@ -6,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AWGI Sistema</title>
     <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="/proyecto-inventario/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/proyecto-inventario/view/css/bootstrap.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/proyecto-inventario/style.css">
+    <link rel="stylesheet" href="/proyecto-inventario/view/style.css">
 </head>
 
 <body>
@@ -19,10 +22,12 @@
             <a href="/proyecto-inventario/view/reportes/mostrar.php" class="navbar-brand texto">
                 <div class="fs-2 font-weight-bold ms-4 me-5 py-1">AWGI SISTEMA</div>
             </a>
-            <?php
-            date_default_timezone_set("America/Caracas");
-            ?>
-            <p class="texto"><?php echo date("Y-m-d") . "</br>" . date("h:i a") ?> </p>
+            
+            <p class="texto">
+                <?php
+                echo date("d-m-Y") . "</br>" . date("h:i a")
+                ?>
+            </p>
         </div>
         <div class="d-flex pe-4">
             <a class="nav-link logout" href="/proyecto-inventario/view/login/login.php" class="navbar-brand"><i class="fa-solid fa-right-from-bracket text-danger"></i></a>
