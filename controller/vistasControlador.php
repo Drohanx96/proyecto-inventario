@@ -1,6 +1,6 @@
 <?php
 
-require_once "/proyecto-inventario/model/vistaModelo.php";
+require_once "/xampp/htdocs/proyecto-inventario/model/vistasModelo.php";
 
 class vistasControlador extends vistasModelo
 {

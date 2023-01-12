@@ -8,6 +8,10 @@
   background-image: url("/proyecto-inventario/media/fondo.jpg");
 }
 
+.fondo_404 {
+  background-image: url("/proyecto-inventario/media/fondo_404.jpg");
+}
+
 body {
   min-height: 100vh;
   background-color: #efefef;

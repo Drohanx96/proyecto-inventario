@@ -9,8 +9,8 @@ class vistasModelo
         $listaBlanca = [];
 
         if (in_array($vistas, $listaBlanca)) {
-            if (is_file("/proyecto-inventario/view" . $vistas . "-view.php")) {
-                $contenido = "/proyecto-inventario/view" . $vistas . "-view.php";
+            if (is_file("/proyecto-inventario/view/contenido/" . $vistas . "-view.php")) {
+                $contenido = "/proyecto-inventario/view/contenido/" . $vistas . "-view.php";
             } else {
                 $contenido = "404";
             }
